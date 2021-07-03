@@ -76,7 +76,8 @@ __pycache__/
 
 # MacOS Thumbnails
 .DS_Store
-
+# images folder
+images/
 # Node Modules
 node_modules/
 

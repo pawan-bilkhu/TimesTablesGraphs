@@ -21,7 +21,7 @@ def generate_graph(multiple, modulus):
 
         node = [node for node in range(modulus)]
         edge = [(node, (node*multiple) % modulus) for node in range(modulus) if node != (node*multiple) % modulus]
-        print(edge)
+        # print(edge)
         graph.add_nodes_from(node)
         graph.add_edges_from(edge)
 
@@ -41,9 +41,9 @@ def generate_graph(multiple, modulus):
 
 
 def main():
-    multiple = 2
-    lower_bound = 10
-    upper_bound = 10
+    multiple = 123
+    lower_bound = 456
+    upper_bound = 456
     for modulus in tqdm(range(lower_bound, upper_bound + 1, 1), desc="Generating Graphs", colour='green', ):
         generate_graph(multiple, modulus)
 

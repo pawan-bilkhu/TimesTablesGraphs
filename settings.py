@@ -8,5 +8,5 @@ def joinpath(*args):
 # DONE: Resolve paths
 ROOT = os.path.dirname(__file__)
 # SUBFOLDER NAME  = joinpath(ROOT, 'subfolder name')
-GRAPHGENERATOR = joinpath(ROOT, 'graphGenerator')
+SRC = joinpath(ROOT, 'src')
 IMAGES = joinpath(ROOT, 'images')

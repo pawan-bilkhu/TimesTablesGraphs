@@ -41,9 +41,9 @@ def generate_graph(multiple, modulus):
 
 
 def main():
-    multiple = 123
-    lower_bound = 456
-    upper_bound = 456
+    multiple = 97
+    lower_bound = 738
+    upper_bound = 738
     for modulus in tqdm(range(lower_bound, upper_bound + 1, 1), desc="Generating Graphs", colour='green', ):
         generate_graph(multiple, modulus)
 
